@@ -1,0 +1,147 @@
+ body {
+            font-family: 'Arial', sans-serif; 
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding-top: 20px;
+        }
+
+        .box-utama {
+            background-color: #ffffff;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            max-width: 900px; 
+        }
+
+        .foto-profil-box {
+            width: 100%; 
+            max-width: 600px; 
+            height: 400px; 
+            margin: 0 auto 25px auto; 
+            border-radius: 10px;
+            overflow: hidden; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .foto-profil {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            transition: opacity 0.3s ease-in-out; 
+        }
+
+        .info-pribadi {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .info-pribadi h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2.5rem; 
+            color: #007bff; 
+            margin-bottom: 10px;
+        }
+
+        .info-pribadi p {
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+        .foto-lain {
+            max-width:  800px;
+            margin-bottom: 10px;
+        }
+        .deskripsi {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .bagian-tersembunyi {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            box-shadow: 0 3px 7px rgba(0,0,0,0.08);
+            border: 1px solid #ddd;
+        }
+
+        .tombol-aksi {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-bottom: 10px; 
+        }
+        
+        .tombol-aksi:hover {
+            background-color: #0056b3;
+        }
+
+        .tabel-pengalaman th, .tabel-pengalaman td {
+            padding: 12px;
+            border: 1px solid #dee2e6;
+        }
+
+        .tabel-pengalaman th {
+            background-color: #e9ecef;
+        }
+
+        .daftar-pendidikan {
+            list-style-type: decimal; 
+            padding-left: 20px;
+        }
+        .daftar-pendidikan li {
+            margin-bottom: 8px;
+        }
+        .daftar-hobi {
+            padding-left: 20px;
+        }
+        .daftar-hobi li {
+            margin-bottom: 8px;
+        }
+        
+        .judul-bagian {
+            font-size: 1.5rem;
+            color: #343a40;
+            margin-bottom: 10px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+       
+        #konten-pendidikan, #konten-pendidikan, #konten-hobi {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .foto-profil-box {
+                height: 300px; 
+            }
+            .info-pribadi h1 {
+                font-size: 2rem;
+            }
+        }
+         @media (max-width: 576px) {
+            .foto-profil-box {
+                height: 250px; 
+            }
+            .info-pribadi h1 {
+                font-size: 1.8rem;
+            }
+            .tombol-aksi {
+                width: 100%; 
+                margin-bottom: 15px;
+            }
+        }

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Saya</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div class="container box-utama">
+        <div class="foto-profil-box text-center">
+            <img src="2img1.png" alt="Foto Profil 1" class="foto-profil" id="fotoProfil">
+        </div>
+
+        <div class="info-pribadi text-center">
+            <h1 id="nama-main" >Salman Muhammad Farras Al Farid (he/him) </h1>
+            <p>TTL: 4 Februari 2000 (25 Tahun)</p>
+            <p >Kementerian Keuangan | Direktorat Jenderal Perbendaharaan</p>
+        </div>
+
+        <div class="deskripsi">
+            <h3 class="text-center mb-3">Tentang Saya</h3>
+            <p class="text-justify">Saya, Salman Muhammad Farras Al Farid, lahir di Bandung pada 4 Februari 2000. Saat ini saya berusia 25 tahun dan bekerja di Kementerian Keuangan, tepatnya di Direktorat Jenderal Perbendaharaan. Sebagai anak pertama dari tiga bersaudara, saya memulai pendidikan tinggi di PKN STAN dan meraih gelar Diploma III Kebendaharaan Negara pada tahun 2019. Untuk terus mengembangkan diri, saat ini saya sedang menempuh pendidikan S1 PJJ Informatika di Universitas Siber Asia, yang saya mulai pada tahun 2025. </p>
+            <p class="text-justify">Perjalanan karier saya di Kementerian Keuangan dimulai pada September 2019 di Kanwil DJPb Provinsi Sulawesi Tenggara, di mana saya memegang beberapa peran termasuk Officer Keuangan dan PIC TIK. Saya juga mendapat kesempatan berharga untuk menjabat sebagai Ajudan Staf Khusus Menteri Keuangan dari Mei 2021 hingga Januari 2024. Setelah kembali ke Kanwil DJPb Sultra sebagai Officer Pembinaan Pelaksanaan Anggaran, saya kini bertugas sebagai HR Officer di Bagian SDM, Sekretariat Direktorat Jenderal, sejak November 2024. Di luar pekerjaan, saya memiliki minat dalam bidang teknologi, yang saya asah melalui diklat seperti React Developer, dan saya juga menikmati hobi seperti tenis meja, bola voli, coding, dan judo.</p>
+        </div>
+
+        <div>
+            <div class="judul-bagian">Pengalaman di Kementerian Keuangan</div>
+            <button class="tombol-aksi" onclick="toggleBagian('konten-pengalaman')">hide/view</button>
+            <div id="konten-pengalaman" class="bagian-tersembunyi">
+                <img class="foto-lain" src="foto-kemenkeu-1.JPG" alt="" >
+                <table class="table table-bordered tabel-pengalaman">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Unit Kerja</th>
+                            <th>Posisi</th>
+                            <th>Waktu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sekretariat Direktorat Jenderal</td>
+                            <td><b>HR Officer</b> | Bagian SDM</td>
+                            <td>Nov 2024 - Now</td>
+                        </tr>
+                        <tr>
+                            <td> Staf Khusus Menteri Keuangan Bidang PKF Sektoral</td>
+                            <td> <b>Ajudan</b> | Tata Usaha Pimpinan</td>
+                            <td>Mei 2021 - Jan 2024</td>
+                        </tr>
+                        <tr>
+                            <td> <a href="https://djpb.kemenkeu.go.id/kanwil/sultra/id/">Kanwil DJPb Prov. Sulawesi Tenggara</a></td>
+                            <td><b>Officer</b> | Pembinaan Pelaksaan Anggaran</td>
+                            <td>Jan 2024 - Nov 2024</td>
+                        </tr>
+                        <tr>
+                            <td> <a href="https://djpb.kemenkeu.go.id/kanwil/sultra/id/">Kanwil DJPb Prov. Sulawesi Tenggara</a></td>
+                            <td><b>PIC TIK</b>  | Seksi Supervisi Teknis Aplikasi</td>
+                            <td>Jan 2020 - Mei 2021</td>
+                        </tr>
+                        <tr>
+                            <td> <a href="https://djpb.kemenkeu.go.id/kanwil/sultra/id/">Kanwil DJPb Prov. Sulawesi Tenggara</a></td>
+                            <td><b>Officer</b> | Subbagian Keuangan</td>
+                            <td>Sep 2019 - Dec 2019</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <div class="judul-bagian">Diklat</div>
+            <button class="tombol-aksi" onclick="toggleBagian('konten-diklat')">hide/view</button>
+            <div id="konten-diklat" class="bagian-tersembunyi">
+                <table class="table table-bordered tabel-diklat">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Skill</th>
+                            <th>Issuer Sertifikat</th>
+                            <th>Link</th>
+                            <th>Tanggal Sertifikat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>React Developer</td>
+                            <td>Kominfo</td>
+                            <td><a href="">link</a></td>
+                            <td>21 Januari 2021</td>
+                        </tr>
+                        <tr>
+                            <td>IT Risk Management</td>
+                            <td>BPPK Kemenkeu</td>
+                            <td><a href="">link</a></td>
+                            <td>1 November 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Pengadaan Barang dan jasa</td>
+                            <td>LKPP</td>
+                            <td><a href="">link</a></td>
+                            <td>10 Agustus 2019</td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="mt-4"> <div class="judul-bagian">Pendidikan</div>
+            <button class="tombol-aksi" onclick="toggleBagian('konten-pendidikan')">hide/view</button>
+            <div id="konten-pendidikan" class="bagian-tersembunyi">
+                <ol class="daftar-pendidikan">
+                    <li>S1 PJJ Informatika, Universitas Siber Asia (2025 - on progress)</li>
+                    <li> Diploma III Kebendaharaan Negara, PKN STAN. (2017 - 2019)</li>
+                </ol>
+            </div>
+        </div>
+            <div class="mt-4"> <div class="judul-bagian">Hobi</div>
+            <button class="tombol-aksi" onclick="toggleBagian('konten-hobi')">hide/view</button>
+            <div id="konten-hobi" class="bagian-tersembunyi">
+                <ul class="daftar-hobi">
+                    <li>Tenis Meja</li>
+                    <li> Bola Voli</li>
+                    <li>Coding</li>
+                    <li>Judo</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        /* Fungsi JS Hover Foto Profil */
+        document.addEventListener('DOMContentLoaded', function() {
+
+            const fotoProfil = document.getElementById('fotoProfil');
+            const pngDefault = '2img1.png';
+            const pngHover = 'img.2.png';
+            const placeholderAsli = 'https://placehold.co/600x400/CCCCCC/FFFFFF?text=Gambar+1';
+            const placeholderHover = 'https://placehold.co/600x400/AAAAAA/FFFFFF?text=Gambar+2';
+
+            const imgHover = new Image();
+            imgHover.src = pngHover;
+
+
+            fotoProfil.addEventListener('mouseenter', function() {
+                fotoProfil.style.opacity = 0;
+                setTimeout(() => {
+                    fotoProfil.src = pngHover;
+                    fotoProfil.onerror = function() {
+                    };
+                    fotoProfil.style.opacity = 1;
+                }, 150);
+            });
+
+            fotoProfil.addEventListener('mouseleave', function() {
+                fotoProfil.style.opacity = 0;
+                setTimeout(() => {
+                    fotoProfil.src = pngDefault;
+                    fotoProfil.onerror = function() {
+                        this.onerror=null;
+                        this.src=placeholderAsli;
+                    };
+                    fotoProfil.style.opacity = 1;
+                }, 150);
+            });
+        });
+
+        /* Fungsi tombol hide */
+        function toggleBagian(idBagian) {
+            const bagian = document.getElementById(idBagian);
+            if (bagian.style.display === 'none' || bagian.style.display === '') {
+                bagian.style.display = 'block';
+            } else {
+                bagian.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+</html>
